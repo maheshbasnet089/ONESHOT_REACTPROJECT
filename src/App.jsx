@@ -1,6 +1,10 @@
 
 import './App.css'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from './pages/home/Home'
+import Product from './pages/product/Product'
+import Create from './pages/create/Create'
+import Edit from './pages/edit/Edit'
 
 function App() {
 
@@ -8,10 +12,10 @@ function App() {
   return (
    <BrowserRouter>
     <Routes>
-      <Route path='/' element={<h1>Home Page</h1>} />
-      <Route path='/product' element={<h1>single page</h1>} />
-      <Route path='/create' element={<h1>create Page</h1>} />
-      <Route path='/edit' element={<h1>edit Page</h1>} />
+      <Route path='/' element={<Home />} />
+      <Route path='/product' element={<Product />} />
+      <Route path='/create' element={<Create />} />
+      <Route path='/edit' element={<Edit />} />
     </Routes>
    </BrowserRouter>
   )
