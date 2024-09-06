@@ -1,8 +1,11 @@
-import React from 'react'
+
 
 const Edit = () => {
   return (
-    <div>Edit</div>
+   <>
+    <h1>Edit</h1>
+    <p>Hello</p>
+   </>
   )
 }
 

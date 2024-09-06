@@ -1,9 +1,10 @@
-
-
+import './Home.css'
 
 function Home(){
     return (
-        <h1>Home page</h1>
+       <>
+        <h1>Hello world</h1>
+       </>
     )
 }
 
