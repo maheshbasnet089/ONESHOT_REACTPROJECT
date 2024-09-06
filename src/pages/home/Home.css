@@ -1,15 +1,5 @@
 /* Navbar Styles */
-.navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-  }
-  
-  .navbar h1 {
-    margin: 0;
-  }
-  
+
   /* Card Container */
   .card-container {
     display: flex;
